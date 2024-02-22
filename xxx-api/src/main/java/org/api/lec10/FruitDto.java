@@ -14,6 +14,10 @@ public final class FruitDto {
     this.date = date;
   }
 
+  public FruitDto(String name, int price) {
+    this(name, price ,null);
+  }
+
   public String name() {
     return name;
   }
